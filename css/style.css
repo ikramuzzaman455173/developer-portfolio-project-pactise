@@ -11,3 +11,10 @@ text-decoration: none;
 ul {
 list-style-type: none;
 }
+body{
+  background:#111;
+  color:#fff;
+}
+h1{
+  text-align: center;
+}
