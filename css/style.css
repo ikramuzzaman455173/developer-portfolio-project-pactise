@@ -48,6 +48,7 @@ a {
 
 .primary-color {
   color: #FD6E0A;
+
 }
 
 ul {
@@ -57,6 +58,7 @@ ul {
 .wrapper {
   width: 100%;
   min-height: 100vh;
+  background: #f6fff8;
 }
 
 section {
@@ -190,64 +192,104 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background:#FFF8F3;
-  border:3px solid #eee;
-  border-radius:5px;
+  background: #FFF8F3;
+  border: 3px solid #eee;
+  border-radius: 5px;
 }
-.about .content{
-  margin:0 150px;
-}
-.content .paragrapgh{
-  font-size:17px;
-  letter-spacing:1px;
-  font-style: italic;
-  font-weight:300;
-}
-.about .info{
-  display: flex;
-  gap:40px;
-  margin:30px 0;
-}
-.about .details .paragrapgh{
-  margin-bottom:5px;
-  font-size:19px;
-  font-weight:400;
-}
-/* *<===skill section styles===>* */
-.skill{
-  display: flex;
-  flex-direction:column;
-}
-.skill .content .paragrapgh{
-  margin:50px 50px;
-  letter-spacing:1px;
-  font-size:16px;
-  margin-bottom:100px;
 
+.about .content {
+  margin: 0 150px;
 }
-.skill .box-container{
-  display: flex;
-  gap:50px;
-  padding:20px;
-}
-.skill .box-container .box{
-  border:3px solid #FFF8F3;
-  padding:20px 10px;
-  background:#474747;
-  border-radius:5px;
-  color:#fff;
-  flex-basis:20rem;
-}
-.skill .box-container .box img{
-  width:30px;
-  border-radius:5px;
-}
-.skill .box-container .box h4{
-  margin:5px 0;
-}
-.skill .box-container .box .paragrapgh{
-  text-align: justify;
-  color:#ddd;
-  font-size:16px;
+
+.content .paragrapgh {
+  font-size: 17px;
+  letter-spacing: 1px;
   font-style: italic;
+  font-weight: 300;
+}
+
+.about .info {
+  display: flex;
+  gap: 40px;
+  margin: 30px 0;
+}
+
+.about .details .paragrapgh {
+  margin-bottom: 5px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+/* *<===skill section styles===>* */
+.skill-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.skill .skill-desc {
+  color: #474747;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.skilled {
+  /* border: 2px solid #333; */
+  padding: 20px 30px;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.skilled img {
+  border-radius: 5px;
+}
+
+.skilled .heading3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.skilled .paragrapgh {
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+/* *<===education section styles===>* */
+.education .resume-content{
+  display: flex;
+  justify-content: space-between;
+  gap:100px;
+}
+.education .education-info{
+  /* border:3px solid red; */
+  padding:7px;
+  margin:30px 0;
+  border-bottom:2px solid #757575;
+  padding-bottom:20px;
+}
+.education .resume-content .heading1{
+  font-size:26px;
+  margin-top:70px;
+  color:#333;
+  letter-spacing:1px;
+}
+.resume-content .education-info .heading3{
+  font-size:22px;
+  margin:7px 0;
+}
+.resume-content .education-info .heading4{
+  font-size:18px;
+  margin:5px 0;
+  color:#757575;
+  margin-bottom:10px;
+}
+.resume-content .education-info .paragrapgh{
+  font-size:14px;
+  letter-spacing:1px;
+  font-style: italic
 }
