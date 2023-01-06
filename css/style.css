@@ -129,7 +129,6 @@ section {
   justify-content: space-around;
   align-items: center;
   /*flex-direction:column*/
-  ;
 
 }
 
@@ -259,37 +258,153 @@ main {
   margin-bottom: 20px;
   font-size: 16px;
 }
+
 /* *<===education section styles===>* */
-.education .resume-content{
+.education .resume-content {
   display: flex;
   justify-content: space-between;
-  gap:100px;
+  gap: 100px;
 }
-.education .education-info{
+
+.education .education-info {
   /* border:3px solid red; */
-  padding:7px;
-  margin:30px 0;
-  border-bottom:2px solid #757575;
-  padding-bottom:20px;
+  padding: 7px;
+  margin: 30px 0;
+  border-bottom: 2px solid #757575;
+  padding-bottom: 20px;
 }
-.education .resume-content .heading1{
-  font-size:26px;
-  margin-top:70px;
+
+.education .resume-content .heading1 {
+  font-size: 26px;
+  margin-top: 70px;
+  color: #333;
+  letter-spacing: 1px;
+  padding: 7px;
+}
+
+.resume-content .education-info .heading3 {
+  font-size: 22px;
+  margin: 7px 0;
+}
+
+.resume-content .education-info .heading4 {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #757575;
+  margin-bottom: 10px;
+  font-weight: 350;
+}
+
+.resume-content .education-info .paragrapgh {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-style: italic
+}
+
+.btn3 {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+/* *<===contact section styles===>* */
+.contact .row {
+  display: flex;
+  gap: 100px;
+}
+
+.contact .row .col1 {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.contact .row .col1 .heading1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.contact .row .col1 .paragrapgh {
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+.contact .row .col1 .icon {
+  display: inline-block;
+  padding: 5px 50px;
+}
+
+.contact .row .col1 .icon img {
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #ddd;
+  margin: 0 20px;
+}
+
+.contact .row .col1 .icon img:hover {
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.contact .row .col2 {
+  padding: 10px;
+  margin: 20px 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+.contact .row .col2 .heading1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.contact .row .col2 form .input, .contact .row .col2 .msg {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 4px;
+  outline: none;
+  margin: 20px 0;
+  border: 0;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2), 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #eee;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: #333;
+}
+
+::placeholder {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.contact .row .col2 .msg {
+  resize: none;
+}
+
+.h1 {
+  color: #474747;
+}
+
+.btn2 {
+  margin: 20px 0;
+}
+footer{
+  position: relative;
+  bottom:0;
+  text-align: center;
+  background:#ddd;
+  padding:10px 0;
+}
+footer .paragrapgh{
+  text-align: center;
+  color:#FD6E0A;
+  font-size:18px;
+  font-style: italic;
   color:#333;
   letter-spacing:1px;
-}
-.resume-content .education-info .heading3{
-  font-size:22px;
-  margin:7px 0;
-}
-.resume-content .education-info .heading4{
-  font-size:18px;
-  margin:5px 0;
-  color:#757575;
-  margin-bottom:10px;
-}
-.resume-content .education-info .paragrapgh{
-  font-size:14px;
-  letter-spacing:1px;
-  font-style: italic
 }
