@@ -191,7 +191,7 @@ main {
   align-items: center;
   flex-direction: column;
   background:#FFF8F3;
-  border:1px solid #333;
+  border:3px solid #eee;
   border-radius:5px;
 }
 .about .content{
@@ -212,4 +212,42 @@ main {
   margin-bottom:5px;
   font-size:19px;
   font-weight:400;
+}
+/* *<===skill section styles===>* */
+.skill{
+  display: flex;
+  flex-direction:column;
+}
+.skill .content .paragrapgh{
+  margin:50px 50px;
+  letter-spacing:1px;
+  font-size:16px;
+  margin-bottom:100px;
+
+}
+.skill .box-container{
+  display: flex;
+  gap:50px;
+  padding:20px;
+}
+.skill .box-container .box{
+  border:3px solid #FFF8F3;
+  padding:20px 10px;
+  background:#474747;
+  border-radius:5px;
+  color:#fff;
+  flex-basis:20rem;
+}
+.skill .box-container .box img{
+  width:30px;
+  border-radius:5px;
+}
+.skill .box-container .box h4{
+  margin:5px 0;
+}
+.skill .box-container .box .paragrapgh{
+  text-align: justify;
+  color:#ddd;
+  font-size:16px;
+  font-style: italic;
 }
